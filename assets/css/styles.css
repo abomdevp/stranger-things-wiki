@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+/* SLIDER DE EPISODIOS */
+
+/* Contenedor del slider + botones */
+.episodios-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+/* Slider horizontal */
+.episodios-slider {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem 0;
+    scrollbar-width: none;
+}
+
+.episodios-slider::-webkit-scrollbar {
+    display: none;
+}
+
+/* TARJETA DE EPISODIO */
+
+.episodio-card {
+    min-width: 270px;
+    max-width: 270px;
+    border: 1px solid #d10a0a;
+    background-color: #0f0f0f;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.episodio-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+.episodio-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-bottom: 2px solid #d10a0a;
+}
+
+.episodio-body {
+    padding: 1rem;
+}
+
+/* Número del episodio */
+.episodio-number {
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: #ff2f2f;
+}
+
+/* Descripción */
+.episodio-desc {
+    font-size: 0.9rem;
+    color: #d7d7d7;
+    line-height: 1.4rem;
+}
+
+/* BOTONES SLIDER */
+
+.episodios-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #d10a0a;
+    color: white;
+    font-size: 1.8rem;
+    padding: 6px 14px;
+    cursor: pointer;
+    z-index: 20;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.episodios-btn:hover {
+    background: rgba(179, 0, 0, 0.85);
+}
+
+.episodios-btn.left {
+    left: -10px;
+}
+
+.episodios-btn.right {
+    right: -10px;
+}
