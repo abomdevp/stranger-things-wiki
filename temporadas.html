@@ -7,31 +7,6 @@
 
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-    <style>
-        /* CONTENEDOR DEL SLIDER */
-        .temporadas-slider {
-            display: flex;
-            gap: 1.5rem;
-            overflow-x: auto;
-            scroll-behavior: smooth;
-            padding-bottom: 1rem;
-        }
-
-        .temporadas-slider::-webkit-scrollbar {
-            height: 8px;
-        }
-
-        .temporadas-slider::-webkit-scrollbar-thumb {
-            background: #b30000;
-            border-radius: 4px;
-        }
-
-        .temporada-card {
-            min-width: 260px;
-            max-width: 260px;
-        }
-    </style>
 </head>
 <body class="bg-dark text-light">
 
@@ -58,62 +33,70 @@
     <!-- HEADER -->
     <header class="py-5 text-center">
         <h1 class="display-4 fw-bold text-danger">Temporadas</h1>
-        <p class="lead">Explora cada temporada de Stranger Things</p>
+        <p class="lead">Explora la evolución de Stranger Things temporada a temporada.</p>
     </header>
 
-    <!-- SLIDER HORIZONTAL SOLO DE TEMPORADAS -->
+    <!-- GRID DE TEMPORADAS -->
     <section class="container pb-5">
-        <h2 class="mb-4 text-danger">Temporadas</h2>
-
-        <div class="temporadas-slider">
+        <div class="row g-4">
 
             <!-- Temporada 1 -->
-            <div class="card bg-black text-light border border-danger temporada-card">
-                <img src="assets/img/temporada-1.webp" class="card-img-top" alt="Temporada 1">
-                <div class="card-body">
-                    <h5 class="card-title text-danger">Temporada 1</h5>
-                    <p class="card-text small">La desaparición de Will Byers destapa secretos oscuros en Hawkins.</p>
-                    <a href="#" class="btn btn-outline-danger btn-sm mt-2">Ver más</a>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card bg-black text-light border border-danger h-100">
+                    <img src="assets/img/temporada-1.webp" class="card-img-top" alt="Temporada 1">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Temporada 1</h5>
+                        <p class="card-text small">La desaparición de Will Byers destapa secretos oscuros y abre las puertas al Mundo del Revés.</p>
+                        <a href="temporadas-detalle.html#temporada1" class="btn btn-outline-danger btn-sm mt-2">Ver episodios</a>
+                    </div>
                 </div>
             </div>
 
             <!-- Temporada 2 -->
-            <div class="card bg-black text-light border border-danger temporada-card">
-                <img src="assets/img/temporada-2.webp" class="card-img-top" alt="Temporada 2">
-                <div class="card-body">
-                    <h5 class="card-title text-danger">Temporada 2</h5>
-                    <p class="card-text small">Una nueva amenaza surge del Mundo del Revés.</p>
-                    <a href="#" class="btn btn-outline-danger btn-sm mt-2">Ver más</a>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card bg-black text-light border border-danger h-100">
+                    <img src="assets/img/temporada-2.webp" class="card-img-top" alt="Temporada 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Temporada 2</h5>
+                        <p class="card-text small">Una nueva amenaza se forma en las sombras mientras Hawkins intenta volver a la normalidad.</p>
+                        <a href="temporadas-detalle.html#temporada2" class="btn btn-outline-danger btn-sm mt-2">Ver episodios</a>
+                    </div>
                 </div>
             </div>
 
             <!-- Temporada 3 -->
-            <div class="card bg-black text-light border border-danger temporada-card">
-                <img src="assets/img/temporada-3.webp" class="card-img-top" alt="Temporada 3">
-                <div class="card-body">
-                    <h5 class="card-title text-danger">Temporada 3</h5>
-                    <p class="card-text small">El verano trae nuevas amistades y amenazas peligrosas.</p>
-                    <a href="#" class="btn btn-outline-danger btn-sm mt-2">Ver más</a>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card bg-black text-light border border-danger h-100">
+                    <img src="assets/img/temporada-3.webp" class="card-img-top" alt="Temporada 3">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Temporada 3</h5>
+                        <p class="card-text small">El nuevo centro comercial de Hawkins oculta secretos mientras el Mind Flayer encuentra un nuevo plan.</p>
+                        <a href="temporadas-detalle.html#temporada3" class="btn btn-outline-danger btn-sm mt-2">Ver episodios</a>
+                    </div>
                 </div>
             </div>
 
             <!-- Temporada 4 -->
-            <div class="card bg-black text-light border border-danger temporada-card">
-                <img src="assets/img/temporada-4.webp" class="card-img-top" alt="Temporada 4">
-                <div class="card-body">
-                    <h5 class="card-title text-danger">Temporada 4</h5>
-                    <p class="card-text small">Un poderoso villano emerge desde el Mundo del Revés.</p>
-                    <a href="#" class="btn btn-outline-danger btn-sm mt-2">Ver más</a>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card bg-black text-light border border-danger h-100">
+                    <img src="assets/img/temporada-4.webp" class="card-img-top" alt="Temporada 4">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Temporada 4</h5>
+                        <p class="card-text small">Vecna emerge desde el Upside Down, conectando traumas del pasado con nuevos horrores.</p>
+                        <a href="temporadas-detalle.html#temporada4" class="btn btn-outline-danger btn-sm mt-2">Ver episodios</a>
+                    </div>
                 </div>
             </div>
 
             <!-- Temporada 5 -->
-            <div class="card bg-black text-light border border-danger temporada-card">
-                <img src="assets/img/temporada-5.webp" class="card-img-top" alt="Temporada 5">
-                <div class="card-body">
-                    <h5 class="card-title text-danger">Temporada 5</h5>
-                    <p class="card-text small">La batalla final se acerca mientras el destino de Hawkins y el Mundo del Revés se entrelazan.</p>
-                    <a href="#" class="btn btn-outline-danger btn-sm mt-2">Ver más</a>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card bg-black text-light border border-danger h-100">
+                    <img src="assets/img/temporada-5.webp" class="card-img-top" alt="Temporada 5">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Temporada 5</h5>
+                        <p class="card-text small">Las piezas finales se mueven en Hawkins para decidir el destino del Mundo del Revés y del mundo real.</p>
+                        <a href="temporadas-detalle.html#temporada5" class="btn btn-outline-danger btn-sm mt-2">Ver episodios</a>
+                    </div>
                 </div>
             </div>
 
