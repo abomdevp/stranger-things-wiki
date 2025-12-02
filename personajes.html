@@ -47,7 +47,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">Will Byers</h5>
                         <p class="card-text small">Will es un chico sensible y creativo cuya misteriosa desaparición desata los eventos principales de la serie. Su conexión con el Mundo del Revés juega un papel crucial.</p>
-                        <a href="#" class="btn btn-outline-danger btn-sm mt-2">Saber más</a>
+                        <a class="btn btn-outline-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalWillByers">Saber más</a>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">Jonathan Byers</h5>
                         <p class="card-text small">Hermano mayor de Will, introvertido y apasionado por la fotografía. Leal, valiente y dispuesto a todo por proteger a su familia y amigos.</p>
-                        <a href="#" class="btn btn-outline-danger btn-sm mt-2">Saber más</a>
+                        <a class="btn btn-outline-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalJonathanByers">Saber más</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">Robin Buckley</h5>
                         <p class="card-text small">Trabaja con Steve en Scoops Ahoy y luego se convierte en una pieza clave del grupo. Inteligente, sarcástica y muy ingeniosa para resolver problemas.</p>
-                        <a href="#" class="btn btn-outline-danger btn-sm mt-2">Saber más</a>
+                        <a class="btn btn-outline-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalRobinBuckley">Saber más</a>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">Eleven (Once)</h5>
                         <p class="card-text small">Niña con habilidades telequinéticas y un pasado marcado por experimentos. Fuerte, determinada y emocionalmente compleja, es la principal defensa contra las amenazas del Upside Down.</p>
-                        <a href="#" class="btn btn-outline-danger btn-sm mt-2">Saber más</a>
+                        <a class="btn btn-outline-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalEleven">Saber más</a>
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">Nancy Wheeler</h5>
                         <p class="card-text small">Valiente, decidida y con talento investigativo. Se involucra profundamente en los misterios que rodean a Hawkins y lucha por descubrir la verdad.</p>
-                        <a href="#" class="btn btn-outline-danger btn-sm mt-2">Saber más</a>
+                        <a class="btn btn-outline-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalNancyWheeler">Saber más</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">Lucas Sinclair</h5>
                         <p class="card-text small">Prudente, lógico y buen estratega. Aunque al principio duda de lo sobrenatural, siempre termina apoyando a sus amigos con valentía.</p>
-                        <a href="#" class="btn btn-outline-danger btn-sm mt-2">Saber más</a>
+                        <a class="btn btn-outline-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalLucasSinclair">Saber más</a>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">Dustin Henderson</h5>
                         <p class="card-text small">Inteligente, curioso y muy ingenioso. Su sentido del humor y su creatividad lo convierten en el corazón del grupo, además de ser un experto improvisado en tecnología.</p>
-                        <a href="#" class="btn btn-outline-danger btn-sm mt-2">Saber más</a>
+                        <a class="btn btn-outline-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalDustin">Saber más</a>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">Steve Harrington</h5>
                         <p class="card-text small">De adolescente popular a héroe inesperado. Steve demuestra lealtad, coraje y un instinto protector hacia los más jóvenes del grupo.</p>
-                        <a href="#" class="btn btn-outline-danger btn-sm mt-2">Saber más</a>
+                        <a class="btn btn-outline-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalSteve">Saber más</a>
                     </div>
                 </div>
             </div>
@@ -143,12 +143,179 @@
                     <div class="card-body text-center">
                         <h5 class="card-title text-danger">Mike Wheeler</h5>
                         <p class="card-text small">Líder del grupo de amigos y el corazón emocional de la historia. Fiel y decidido, mantiene una conexión especial con Eleven y lucha por proteger a quienes quiere.</p>
-                        <a href="#" class="btn btn-outline-danger btn-sm mt-2">Saber más</a>
+                        <a class="btn btn-outline-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalMike">Saber más</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+<!-- INICIO MODALS PERSONAJES -->
+
+    <!-- Modal Will Byers -->
+    <div class="modal fade" id="modalWillByers" tabindex="-1" aria-labelledby="modalWillByersLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-black text-light border border-danger">
+        <div class="modal-header border-danger">
+            <h5 class="modal-title text-danger" id="modalWillByersLabel">Will Byers</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Will es un chico sensible y creativo cuya misteriosa desaparición desata los eventos principales de la serie.
+            Su conexión con el Mundo del Revés lo afecta profundamente, convirtiéndose en una pieza clave para entender la amenaza.
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal Jonathan Byers -->
+    <div class="modal fade" id="modalJonathanByers" tabindex="-1" aria-labelledby="modalJonathanByersLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-black text-light border border-danger">
+        <div class="modal-header border-danger">
+            <h5 class="modal-title text-danger" id="modalJonathanByersLabel">Jonathan Byers</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Jonathan es introvertido y apasionado por la fotografía. Su gran lealtad hacia su familia
+            lo impulsa a investigar peligros sobrenaturales y enfrentar amenazas mucho más grandes que él.
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal Robin Buckley -->
+    <div class="modal fade" id="modalRobinBuckley" tabindex="-1" aria-labelledby="modalRobinBuckleyLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-black text-light border border-danger">
+        <div class="modal-header border-danger">
+            <h5 class="modal-title text-danger" id="modalRobinBuckleyLabel">Robin Buckley</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Robin, compañera de Steve en Scoops Ahoy, es inteligente, sarcástica e ingeniosa.
+            Sus habilidades para descifrar códigos la convierten en una pieza valiosa en las investigaciones del grupo.
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal Eleven -->
+    <div class="modal fade" id="modalEleven" tabindex="-1" aria-labelledby="modalElevenLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-black text-light border border-danger">
+        <div class="modal-header border-danger">
+            <h5 class="modal-title text-danger" id="modalElevenLabel">Eleven (Once)</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Eleven posee habilidades telequinéticas como resultado de experimentos del laboratorio de Hawkins.
+            Escapó del lugar y encontró en Mike y sus amigos una familia. Su poder es vital para combatir al Mind Flayer y el Upside Down.
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal Nancy Wheeler -->
+    <div class="modal fade" id="modalNancyWheeler" tabindex="-1" aria-labelledby="modalNancyWheelerLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-black text-light border border-danger">
+        <div class="modal-header border-danger">
+            <h5 class="modal-title text-danger" id="modalNancyWheelerLabel">Nancy Wheeler</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Nancy es valiente y decidida. Su talento investigativo la lleva a descubrir conspiraciones
+            ocultas y misterios relacionados al laboratorio y al Mundo del Revés, convirtiéndose en una líder dentro del grupo.
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal Lucas Sinclair -->
+    <div class="modal fade" id="modalLucasSinclair" tabindex="-1" aria-labelledby="modalLucasSinclairLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-black text-light border border-danger">
+        <div class="modal-header border-danger">
+            <h5 class="modal-title text-danger" id="modalLucasSinclairLabel">Lucas Sinclair</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Lucas es prudente, lógico y muy estratégico. Aunque al principio duda de lo sobrenatural,
+            demuestra gran valor y compromiso cuando la situación lo requiere.
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal Dustin Henderson -->
+    <div class="modal fade" id="modalDustin" tabindex="-1" aria-labelledby="modalDustinLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-black text-light border border-danger">
+        <div class="modal-header border-danger">
+            <h5 class="modal-title text-danger" id="modalDustinLabel">Dustin Henderson</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Dustin es el miembro más curioso y creativo del grupo.
+            Su ingenio y conocimientos en ciencia y tecnología lo han salvado de problemas en más de una ocasión.
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal Steve Harrington -->
+    <div class="modal fade" id="modalSteve" tabindex="-1" aria-labelledby="modalSteveLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-black text-light border border-danger">
+        <div class="modal-header border-danger">
+            <h5 class="modal-title text-danger" id="modalSteveLabel">Steve Harrington</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Steve pasó de ser el chico popular del instituto a un héroe inesperado.
+            Su valentía, su bate con clavos y su cariño por los más jóvenes del grupo lo convirtieron en uno de los favoritos de los fans.
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal Mike Wheeler -->
+    <div class="modal fade" id="modalMike" tabindex="-1" aria-labelledby="modalMikeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-black text-light border border-danger">
+        <div class="modal-header border-danger">
+            <h5 class="modal-title text-danger" id="modalMikeLabel">Mike Wheeler</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Mike es el líder emocional del grupo y mantiene una conexión especial con Eleven.
+            Su valentía y determinación lo impulsan a proteger a quienes ama, incluso en las situaciones más aterradoras.
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+<!-- TERMINO MODALS PERSONAJES -->
+
 
     <!-- FOOTER -->
     <footer class="bg-black text-center py-3 border-top border-danger">
