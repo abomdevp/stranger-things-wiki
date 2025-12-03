@@ -1,3 +1,34 @@
+/* FOOTER */
+
+footer {
+    background-color: #121212;
+    border-top: 1px solid #d10a0a;
+    padding: 25px 0;
+    text-align: center;
+    color: #ccc;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer .footer-links {
+    margin-top: 8px;
+}
+
+footer .footer-links a {
+    margin: 0 12px;
+    color: #d10a0a;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+footer .footer-links a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px #ff0000;
+}
 
 
 
